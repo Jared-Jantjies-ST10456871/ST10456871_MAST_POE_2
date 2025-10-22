@@ -5,6 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Filter</Text>
+      <Text style={styles.body}>Coming Soon...</Text>
       <StatusBar style="light" />
     </View>
   );
@@ -23,5 +24,10 @@ const styles = StyleSheet.create({
     fontSize: 36,
     fontWeight: 'bold',
     marginTop: 50,
+  },
+  body: {
+    color: 'white',
+    fontSize: 26,
+    marginTop: 100,
   },
 });
