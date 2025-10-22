@@ -30,6 +30,8 @@ const screenOptions: (props: { route: any }) => BottomTabNavigationOptions = ({ 
         return <Ionicons name={iconName} size={size} color={color} />;
     },
 
+    /*(React native. 2025)*/
+
     tabBarActiveTintColor: '#ffffff',
     tabBarInactiveTintColor: '#d4d4d4',
     tabBarStyle: {

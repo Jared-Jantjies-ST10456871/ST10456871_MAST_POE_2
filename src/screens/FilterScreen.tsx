@@ -11,6 +11,8 @@ export default function App() {
   );
 }
 
+/*(React native. 2025)*/
+
 const styles = StyleSheet.create({
   container: {
     backgroundColor: '#3d1f00', 

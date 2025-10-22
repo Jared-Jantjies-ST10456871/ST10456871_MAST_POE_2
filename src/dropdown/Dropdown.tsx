@@ -47,6 +47,8 @@ const DropdownSection: React.FC<DropdownProps> = ({ title, items }) => {
   );
 };
 
+/*(React native. 2025)*/
+
 const styles = StyleSheet.create({
   container: {
     width: '100%',

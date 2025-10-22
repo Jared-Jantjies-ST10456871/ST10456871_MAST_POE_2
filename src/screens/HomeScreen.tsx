@@ -123,6 +123,8 @@ export default function App() {
   );
 }
 
+/*(React native. 2025)*/
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
